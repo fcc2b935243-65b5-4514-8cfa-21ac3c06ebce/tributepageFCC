@@ -1,0 +1,73 @@
+/* * {
+margin: 0;
+} */
+
+main, body {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightgray;
+}
+
+#title {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 80%;
+}
+
+#img-caption {
+ text-align: center;
+}
+
+nav > ul {
+  flex-flow: row;
+}
+
+article {
+  margin: 15px;
+}
+
+footer {
+  width: 100%;
+  background-color: grey;
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+  border: 0;
+}
+
+a {
+color: #f3f3f3;
+}
+
+#main {
+  max-width: 90%;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  margin-top: 3px;
+}
+
+#im {
+  width: 20vw;
+  height: 40vw;
+  border: 1px solid #000;
+  margin: 10px 0;
+  object-fit: cover;
+}
+
+li {
+  display: inline;
+  font-size: 20px;
+}
